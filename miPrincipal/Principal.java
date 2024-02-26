@@ -19,7 +19,10 @@ public class Principal {
             switch (opc){
             case 1:
                AppLadrillo.menu();
-               break;     
+               break;  
+            case 2:
+                AppFactorial.menu();
+                break;   
             case 0:
                System.out.println("ADIOS!");
                consola.close();
