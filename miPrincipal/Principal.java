@@ -12,6 +12,17 @@ public class Principal {
             System.out.println("      RECURSIVIDAD      ");
             System.out.println("************************");
             System.out.println("1) Ladrillos ");
+            System.out.println("2) Factorial ");
+            System.out.println("3) Numeros naturales");
+            System.out.println("4) Suma de digitos");
+            System.out.println("5) Recursividad Indirecta ");
+            System.out.println( "6) Máximo Común Divisor (MCD) ");
+            System.out.println("7) Busqueda Binario ");
+            System.out.println("8) Ordenamiento Selección ");
+            System.out.println("9) Torres de Hanoi");
+            System.out.println("10) Fibonacci");
+            System.out.println("11) Performance serie fibonacci ");
+            System.out.println("12) Ordenación Por Mezcla  ");
             System.out.println("0) Salir ");
             System.out.print("Selecciona opción:");
             opc=consola.nextInt();
@@ -22,18 +33,44 @@ public class Principal {
                break;  
             case 2:
                 AppFactorial.menu();
-                break;   
+                break; 
+            case 3:
+                AppNumerosNaturales.menu();
+                break;
+            case 4:
+                AppSumaDigitos.menu();
+                break;
+            case 5:
+                AppRecursividadIndirecta.menu();
+                break;
+            case 6:
+                AppMCD.menu();
+                break;
+            case 7:
+                AppBusquedaBinaria.menu();
+                break;
+            case 8:
+                AppOrdenamientoSeleccion.menu();
+                break;
+            case 9: 
+                AppTorresHanoi.menu();
+                break;
+            case 10:
+                AppFibonacci.menu();
+                break;
+            case 11:    
+                AppPerformanceFibonacci.menu();
+                break;
+            case 12:    
+                AppOrdenacionPorMezclas.menu();
+                break;
             case 0:
                System.out.println("ADIOS!");
                consola.close();
                break;
-               
-
             default:
                System.out.println("Valor incorrecto, intente de nuevo!");
-
         }
-       
     }while (opc != 0);
 		
     }

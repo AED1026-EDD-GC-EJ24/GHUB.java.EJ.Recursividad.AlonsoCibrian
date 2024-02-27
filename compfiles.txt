@@ -1,3 +1,14 @@
+./miPrincipal/AppRecursividadIndirecta.java
+./miPrincipal/AppPerformanceFibonacci.java
 ./miPrincipal/Principal.java
 ./miPrincipal/AppLadrillo.java
+./miPrincipal/AppMCD.java
+./miPrincipal/AppOrdenacionPorMezclas.java
+./miPrincipal/AppSumaDigitos.java
+./miPrincipal/AppFactorial.java
+./miPrincipal/AppNumerosNaturales.java
+./miPrincipal/AppTorresHanoi.java
+./miPrincipal/AppFibonacci.java
+./miPrincipal/AppBusquedaBinaria.java
+./miPrincipal/AppOrdenamientoSeleccion.java
 ./miTest/AppTest.java
