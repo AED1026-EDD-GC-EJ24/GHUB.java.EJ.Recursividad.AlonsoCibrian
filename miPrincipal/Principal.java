@@ -41,7 +41,7 @@ public class Principal {
                 AppSumaDigitos.menu();
                 break;
             case 5:
-                AppRecursividadIndirecta.menu();
+                AppAlfabeto.menu();
                 break;
             case 6:
                 AppMCD.menu();
