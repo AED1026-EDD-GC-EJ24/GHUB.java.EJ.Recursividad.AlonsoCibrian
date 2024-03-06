@@ -59,7 +59,7 @@ public class Principal {
                 AppFibonacci.menu();
                 break;
             case 11:    
-                AppPerformanceFibonacci.menu();
+            AppFibRecursivode40a50.menu();
                 break;
             case 12:    
                 AppOrdenacionPorMezclas.menu();
