@@ -1,5 +1,4 @@
-package miPrincipal;
-
+package miPrincipal;    
 public class AppMCD {
         public static void menu() {
               //Mayor comun denominador
@@ -18,7 +17,7 @@ public class AppMCD {
                return mcd(n,m%n);
         }
         //versión iterativa
-        
+
     } 
 
 
