@@ -1,6 +1,6 @@
 package miPrincipal;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class AppFibonacci {
     public static void main(String[] args) {
@@ -45,5 +45,16 @@ static long getContador(){
     int cont = 0; // Declare and initialize the variable cont
     return cont;
 }
+ static double fibonnaciRecOptimizado(int x,Hashtable<Integer, Double>t){
+
+    //primero verificamos si el resultado ya esta en la tabla
+    Double d = t.get(x);
+    //si no estaba entonces lo calculamos y lo ingressamos a la tabla
+    if(d==null){
+        d = fibonnaciRecOptimizado(x-1, t) + fibonnaciRecOptimizado(x-2, t);
+        t.put(x, d);
+    }
+    return d;
+ }
 
 }

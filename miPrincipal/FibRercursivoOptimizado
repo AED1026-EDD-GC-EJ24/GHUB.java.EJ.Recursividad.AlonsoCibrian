@@ -1,0 +1,23 @@
+import java.util.Hashtable;
+
+public class fibRecursivoOptimizado {
+    public static void menu() {
+        system.out.println("************************************");
+        system.out.println("*          Fibonacci                *");
+        system.out.println("************************************");
+        Hashtable<Integer, Double> t = new Hashtable<Integer, Double>();
+        t.put(1, 1d);
+        t.put(2, 1d);
+        
+        Scanner rd = new Scanner(System.in);
+        System.out.println("Cuantos terminos quiere ver? ");
+        int n = rd.nextInt();
+
+        for (int i = 1; i <= n; i++) {
+           double f = AppFibonacci.fibonnaciRecOptimizado(i, t);
+           System.out.println("fib (" + i + ") = " +f);}
+    }
+   
+    
+   
+}
